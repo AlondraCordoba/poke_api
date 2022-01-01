@@ -22,7 +22,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+- bin/console ====> Console with the program
+- client=PokeApi::Client.new('https://pokeapi.co/api/v2/') ===> Define the api / url.
+- client.get('pokemon') ===> Get something, this word'll be add on the url client.
+.get('pokemon')
+.get('pokemon/1')
+
+## Tip
+- Test files as good practice should end with the word "test". (api_client_test.rb)
+- TDD
 
 ## Development
 
@@ -41,3 +49,6 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the PokeApi project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/poke_api/blob/master/CODE_OF_CONDUCT.md).
+
+
+

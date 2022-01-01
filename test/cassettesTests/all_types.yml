@@ -1,0 +1,3155 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:26:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - 44gyc7h4ko1o
+      X-Cloud-Trace-Context:
+      - ae7790d36dde548c2acda6225f8bbf39;o=1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18665-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1640997416.870480,VS0,VE199
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '3002'
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2r2SZUB0MpkrPw9Ndb5is3OIfIqECE8oNTC1xr3lsBR%2BMMY%2BIF2SAsGfxbq%2F3ND%2FMhR8smk7AFS8l4ue1DSP5%2BRZi0tXvxJ49%2BK4NJutZPdfkTObYeGj57b%2BSIK2"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6688d712f91-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:26:58 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=123
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s7t0ii3cyh
+      X-Cloud-Trace-Context:
+      - b0bdcff58d0f7a865b4ab0469f89bc03
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18669-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000421.375630,VS0,VE206
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JmTkjaQv8FIMymyB%2B7tbOV9Kz5WZU%2BWFitpz8mSZWDhWRGtpW7MDKCm49Y28C8pxG4ytvkGtpZcvBlnLv0WhtjZ2SRQhUjHteVPdIll7eNb9DnXg8pVIAG6V9FFs"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6797a1028ab-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:09 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=122
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:05 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s7mhv5e3ll
+      X-Cloud-Trace-Context:
+      - 66e202351ed3662a8b9c674820c94ce1;o=1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18682-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000425.824170,VS0,VE469
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1tZM4ljPHwSGwkpOyZrlbPl1l2rDBf2WR6FBTOEzo52tbD2kbfHmmhv4d%2B%2FTMgh07HiNKdbUPdivieOzxqfuQBFOfaVyxF2Vs7UTnYjGV3wi%2B8fo9aU3j1tVZhxs"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f68f1dd566ef-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:10 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=267
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s79s34dcrn
+      X-Cloud-Trace-Context:
+      - 87b7a95ed9b8fc3adfb14d001bacf7c1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18656-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000430.449122,VS0,VE207
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ujIB6nI8kTVE3jMKzya4nUkqdVsBbKe5DwdkWYgwGqzGzZJqj54X6Si8%2B8fgbOR8Lal%2Fx%2FY0fVyFMclEV78%2FI8kz35kEoByCY3mgiG2eW%2FYu7%2F8H3cEkttJ1JFya"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6b23f48ec4e-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:16 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=738
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - lw5roaayskqo
+      X-Cloud-Trace-Context:
+      - 372f09cfc145032afba0aa4d16a261c1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18652-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000431.540317,VS0,VE219
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wkQPu%2BNVBKLGPJ1wKbNVwvAhaqyxvYWpZCymCl8p7cx8zz4eS5X6JCDSRaLzq24ORRKyujn9NArq8NYYim68pnILRAb3PBRYq8gAMTFkGlRzpZEVqB2D5PggeRgZ"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6b2cd490be2-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:16 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=265
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s70gtnjt22
+      X-Cloud-Trace-Context:
+      - dc65a34c6c226e97b2cd6c06215d75ba
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18680-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000431.273266,VS0,VE179
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tve3k6U5IZbeTK5iL7IYCVnjle%2F%2Fg2pTK4xqbbHobcnUEx7T3gphZVp84n87VYAKcpJEiAcVChxsQlzj9UJZ96IKM43H89TBVFcjf3HsM0mIT37NffrzUOvhLaop"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6b76b318175-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:16 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=1084
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s7wbekv3hm
+      X-Cloud-Trace-Context:
+      - cd0761a4d65aff1790cbe472427ef5b9
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18656-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000431.025554,VS0,VE153
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=H71%2BtJzks%2FrdXjUztyfp%2BJ%2BU3%2BhFY9vWErfqN4iWn4%2BbWY6wDsrcz8cM6ye3LFOdaFfiZbPN6PteUAJtNXmOJDvAXCgjMFI8DIGnMmUgS1RXIIBZgaZjFGwX4hm5"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6b5cedeec52-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:19 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=1886
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - z4chzdkhsu00
+      X-Cloud-Trace-Context:
+      - bafbff5ccf38cad6a9dcb65ed0199b6b
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18633-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000431.300145,VS0,VE358
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vMQV4kXxDE9pOmzaKma4ICNwxEndMI7utfS9jTTHDZkaxfkMDaFPfWq6o4NZp7V8sz6dFeO1xfgImQvgjOBmX%2B%2Ba6q7jAtGqTFRbYDkotAfyqyF5ovNtrpcF2iZV"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6b78f74815e-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:19 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=1741
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - wku4cpdtsxr1
+      X-Cloud-Trace-Context:
+      - 2d127faecbc6cd0ee03c7f0cef17dbc4
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18670-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000431.299664,VS0,VE358
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=I%2FXlZ3IVTve6Ok%2F5nHEA9yf25M4Mx8a2m7qJuIEPB2poyNX6y%2Fnd1LcK%2FNJgtgIhnpHk7SafsMPzqwGhGCIr7IaY6WDhxrfbfN6RKwspZ%2FwbdZSVNpJgOJgTmuLF"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6b78f34ecc3-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:19 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=2497
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - naayebi9mju2
+      X-Cloud-Trace-Context:
+      - 644cc4c13cfaf419daa3c37fe7e8479d
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18650-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000437.121472,VS0,VE341
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EXl7GpEKtO7ksbTutaf8d69WXM2Rtzj2Zh0%2Bfvljl2OX%2Bs139Ro%2BwT4tTZLEJKEUGA1Sh3qaiVeVVn4SKEEwKAq1hlrCxVYXZzRwRU1uwjY%2F1MFTXz4v1Z80YFPX"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6dbedad286f-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:19 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=131
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s7fptcv99k
+      X-Cloud-Trace-Context:
+      - 1e975710620eac94322f116ca1600a0a
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18683-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000434.482959,VS0,VE112
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BFXs2p7pk9JBG%2F2ARKZYmbLFzdOBcoxEE1DWFpBBHg%2FQZiLqRwhEYO2sBIi0Eghbz%2Fxhpi5gkoWAHjwIxkeSkA7%2BU131TAdKsbofn06OIBu13zb6dtMWLNJn64oW"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6cb694a0baf-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:25 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=2060
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - z4chqqp777p4
+      X-Cloud-Trace-Context:
+      - a4531e9a7fffe9db2825917333054af5
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18632-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000434.492389,VS0,VE286
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SBMv%2BnVGswNqbNtoiNpF5t46aQXIJwVCpz%2B8zB8GVcDcmftBtQBeEMLOEu6ayxpjPe18u28WKjjM8ehK1%2B2K6WLU4aN%2B12UgbHIYHn3L%2Bsq%2Fel2QgHzaE75T3SZl"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6cb7f958173-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:25 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=2136
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s7srb44j8m
+      X-Cloud-Trace-Context:
+      - 0adb7b19af1f6c7381541cfa2d213bde;o=1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18646-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000436.160575,VS0,VE142
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PLp6oEGHPoLQgl%2B7wkLXi7UCfvYtWccD6YbGyno0KnmXrJMEHzrUTD2nOtVF8QA%2FP6Ybor%2FLywCaMoMVgbWqV0ohfR57xJTLbBg5GKlcZJhVQfWHO90Cgjy%2BLX8G"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6d5ebda2893-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:26 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=2474
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - twbda8vgfaum
+      X-Cloud-Trace-Context:
+      - 6695dca65c5355526734be6e43044c94
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18622-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000439.197287,VS0,VE273
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KUjfzL89eWC98ZqLT813FPnnlqCaqAWI4ftpfRnqpNvCWB1GgbXcih8Q%2BtBcnyTa5o8F%2FtpplyYbm%2B7yndjtGSuGVKRm1H9JwdUcBQRtX9A%2B4HrsYnqEwPcPho39"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6e8ed3b0b95-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:27 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=2676
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s7urxonkcv
+      X-Cloud-Trace-Context:
+      - db67c0054e09b084bbe38342772ac049
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18634-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000442.793584,VS0,VE297
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ShbCdpajwzlDt6CcxtjE6ZvPqUt%2Bt2gy69IuacgVz8NLRJKZBCBxVB7yA%2BsPB6Gm8AS2ElXUgTqK%2FlsVTiyHJw3piR4nMt9vAP7fXjDz%2B7iS0vKo92b24BCI6qgp"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6f91aa86737-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:30 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=2668
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s7ro9mj3g8
+      X-Cloud-Trace-Context:
+      - 7a1a0c52b3c1264589839f834d42ebc9
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18631-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000441.817535,VS0,VE232
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UbumfQ25BVAn2afnmR3WwO1GB5nknsv6vTnOqM9g26GOcE7fxeuY7zio2yMLmiHmcU36uF9tuTpBkMGrOzLslYLVfE8xirOk0qSeJVlOSxBfIdO7PKTbGQzXC7k8"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6f30cda0e4e-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:30 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=2857
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - kvakz1nsf60z
+      X-Cloud-Trace-Context:
+      - 93ae1b00c5b91232c4d93bb7660cc86d
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18663-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000442.317007,VS0,VE433
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nz3mtKMGLR5Eytxh1Op6F7rn9XAvl91Mk9oBUqkJdY7DFd9OCoP2l5nmV7ODI7NNggx9DEVStEmRNcOzylbFoVChO3P4sd8JrJe8VwMW4PeZFXMdZ2a%2FRj8mSm7o"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f6fc6b2b66b3-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:30 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=5211
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s7nqy9f055
+      X-Cloud-Trace-Context:
+      - dafd24c375cbd7e9f616c1a6725122dd
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18620-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000454.915059,VS0,VE262
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0MCpVBbDWd%2Bh9FEQ11doshN6uC9zv08e6QzRwZpvCVVkRPknlMgmzMaaNnT6K9wW1pxQnDjFsCVmqw%2FsH7JEWC2pJzW5OUtUoPxzqKUK0fvfc%2F%2BO62AKd8dpADiV"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f744df67ecc7-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:39 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=172
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:32 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - 2d9rsmmqfwac
+      X-Cloud-Trace-Context:
+      - 2c66a1d523bcf4484d43fb006849aeb6;o=1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18658-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000452.081152,VS0,VE213
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=35XwZLew0e9tu3aZMg7X%2FnwZnVTYos5rvu7wD%2F7u%2By7IdrTbpuTz2F5OK6xfRu5wsvQdPPU0u%2BsVm5xyOsDZXSV%2FzDbVtmSp8UnpZ33odUA6TMG0L%2BfyivqDU%2Bod"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7397b800ee2-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:40 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=162
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s762wtag72
+      X-Cloud-Trace-Context:
+      - 8e80df0d820d24081fbfbe8e9afa0d05
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18637-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000447.976943,VS0,VE982
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dtpueoAZyhSL2B9glDIv07NeZtUSSrRmaaBNELNnCJCmTkO00Xm7pSi6sjt%2Bez1USH6JQcAQGIEZsUO8kjXcm4SV0mfcdoc99QTim%2F7ntMkIuAJAG2tNW5aBcNH5"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7197f7b6719-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:41 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=3981
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - 5uqeapc0w63r
+      X-Cloud-Trace-Context:
+      - 1b3207f295880e6a3ed033879ace4081;o=1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18625-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000451.004520,VS0,VE227
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JOXvGeJCDQAkkZa8Q%2BWyMXbK0Dgfm8uPmqUvV%2Bj4gfnOAIbPF6QYXZEE8Hr%2B635puc0kbihp0lZtQFPK%2F1ifbYqfcJUB1jNK2LO9WRcg7T1jfrXmODUlBt5aPEes"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f732ad756792-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:43 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=4347
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - okl6xkgta580
+      X-Cloud-Trace-Context:
+      - e0a782f851d494b9458bfd5893f90544
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18620-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000458.837662,VS0,VE322
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=c7zYeWemnk7B0Q6%2FMTINdGFleK7A8mld5foeB2GI1OnLxKtoFLTE2qF6zNXqLP5vj8brwclvtYEu33bnNMYdMgDhAWeITAAlQ%2FyHR0cZrkMM%2F7y7gvgH3b%2FxiS5W"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f75d6dfe66c5-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:45 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=5135
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s77ceaxtlo
+      X-Cloud-Trace-Context:
+      - 7079758d0ce18d62e801d1ea8b8911ab
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18658-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000461.583922,VS0,VE118
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UA48oyBmO8EHWpt%2BNgV9%2B%2B%2FNM6Bc4Y1ndnGgiT8OkyjSqMNaVzvlxq8ro6xxc25%2BM1twsoPcri5Y54FEj18w%2FdxEXfR8IeEo4XMXtnTxGFIGen3bNIn6%2BTkqE9Nz"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f76e593b66f5-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:46 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s7aazghkbq
+      X-Cloud-Trace-Context:
+      - 461fb5b0ea1492e9b7115ba63a7671c0
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18678-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000461.844779,VS0,VE108
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aLoJ15bEjrR3%2F92msZh%2BTqwO3rF9eGdjsH53LbofRohZdSJPnJqje4tUMMRYoW%2BDGdEw4GuACGLCn%2FZv4Ig33ANdN3QvE3AEvmkGDrTClhUulMt6sAPTCfvfd0dn"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7703eed0ee2-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:47 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=7106
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s7o6pwhynh
+      X-Cloud-Trace-Context:
+      - d11dba92739430bac290794142cb3d8d
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18664-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000464.668017,VS0,VE184
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=a%2BfQh05iQ%2BNzfeSBDAUZxbJmbLtaKR1n7XzGxEdvxNdm6PWAGHrsA%2BefRUf%2F1qqtGDOw5J6aahYUqnO9C6GiWgdDEaIBpSsbvSSmEjcRVMTlEH2KYyXNrM7HUuW8"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f781dcba0ef6-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:51 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=177
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - hxn0gwj9t2tp
+      X-Cloud-Trace-Context:
+      - 18e4e34ba4af02c838c12141fe439f70;o=1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18668-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000462.981804,VS0,VE293
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zFFMXVHMPGzGTd8NH%2Fo5uXbTcuv%2BHGejGmBSZcrCQ7K%2B3TizvBiddm1d1JGJVqi1tXf1r7F4%2FYXoyxMvrFkYYLNlJQqQEGNTE4oLvD8iblUYNE9Os8cfYMJT1mPX"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f777483a0f0e-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:51 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=5982
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s7xtyikql5
+      X-Cloud-Trace-Context:
+      - 0f20bd28eecfe60a9c2b139b282f7d4a
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18673-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000465.236317,VS0,VE138
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GrMtC%2FduG4BC6BaKrkhPs4kcfDo00uyjtexNX9UQC%2BNs78PlgsFXo3KaYxdg7WD3PAt%2FoRmtxNpf%2BYqxaW7gz3bmW0opzFx3vY5lZ0eSKqpsETWKoIUVPWjq4nwA"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f78baaa76719-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:53 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=8646
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s76rzx0r5z
+      X-Cloud-Trace-Context:
+      - fe885a768154aff1a75d3fb8f0b33dbb
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18667-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000469.998283,VS0,VE251
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=obcZCb3uhiNE5KjnPUxPF3IKHbQxpsUyM24WJ9I3byyjc6D657a23pQ5J6FlzywpqHZla1iLaqDrVALEI8bVDM%2BdN3xnrWcRNeoxpH97h8DmY45ymZXDXiSX9igV"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7a31858815e-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:54 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=180
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s79axmd7qw
+      X-Cloud-Trace-Context:
+      - e94ba4a67e86604dd8a6df60747f2ff5;o=1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18642-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000467.369367,VS0,VE171
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Zr9e9iFyv96FBjCC7wJlHCQoCqw%2FNsJiVicortJnQq%2Fmcm35kpUxFTFSPKguTGGGKgllvPFeLOqecqud%2FRlfs4MKd0PjKribuEFAFTqTEQ5QPoIWQwXXvIuNNZ%2FE"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f798fb72d29a-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:54 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=7365
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:51 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - uu4fn98irj6l
+      X-Cloud-Trace-Context:
+      - 2b243ea980a5cc27a3c55d177c2acd76
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18639-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000472.619017,VS0,VE229
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5mrKECsdsL8cM03Cuabh9vII37q26%2Fczg3%2FevAQpT25%2BB68HrkjyHeQ%2BXUYmImA6SY3%2FOJt9TZnBLHzVJVRjtzH6BshWgT6aUl5MH7nJWJmwarDWuwSq41r%2F%2F7Hr"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7b38bcb0bac-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:56 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=9104
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - pe10i1o45zhn
+      X-Cloud-Trace-Context:
+      - 95991648586f2f0ab5964d46e624cba6
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18665-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000474.644208,VS0,VE297
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SWMfwbcXJLHoItDGbwOoSJyaAITdYRncrf8KXjfkTl%2BTHsu4PTqAuiDOrnYv2uWx2nyLovO4%2BiRioJzfnF%2Bqhykk%2FiX1T%2FRNL9VWezB8%2FIrfSQ8AH5Uj690V8E6c"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7c039a5ec7a-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:27:59 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=9174
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - uu4fm52zanw7
+      X-Cloud-Trace-Context:
+      - a169147d9255c5ed3aaf7c10c051337d
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18658-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000474.338967,VS0,VE415
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AsgyrAM8%2BqfJ%2F31s1k4PQ%2BbqwJ2Nr7BPCa0WgqSx%2BNVk5%2Fi5ED%2F03Rxw%2BuflYM%2BdwNxjEjUid9nCufG9EHO5OeA%2BBtoVO%2FAY3dNzX6ikj9wmd91VMRKkWxpsSDlN"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7c48cab0b82-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:28:01 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=268
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s723zm1ggo
+      X-Cloud-Trace-Context:
+      - 3d516c87027873b30953edae1b94b9b2
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18637-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000475.929003,VS0,VE234
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fxOaSx1%2FliAGsc8WNI3TUwVt8QFoMpU22WTao%2BSrWzlIaweHXLVzZONrXKMyTiDraHkXSUWEeYqCvn1MmCLgtfRiDiuK%2BAOArBumPuP%2FpADPedRjEbEEa9LX3N%2Bn"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7c838d80bd9-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:28:01 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=8663
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - uu4fhvj3u9pv
+      X-Cloud-Trace-Context:
+      - f0b6d1508e561c33ebc0176b13af92cd
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18652-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000474.325728,VS0,VE221
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pZy7nPQMlXsFq12MOOv%2FT24A3Rt52PFscwiUQgDY6xmXRV%2BC2s%2FkEqe9fXmZGCBw%2FGQgnGa9swJ01ZmMNh1aXWNnk11GgY6saMfpA5RJB5GQnKiVHWmgy5QUBwFs"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7c47fc12f25-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:28:02 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=86
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - z65d7d2vaj87
+      X-Cloud-Trace-Context:
+      - 482d9e2369f00718de4626beb747a5f4;o=1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18637-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000468.144686,VS0,VE412
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lD5mlfHQISNekVeCpk%2FZeHRvD27z9fHGPVWzlH9AHSOJLBDj6cRNgjAk5mpG1m8V0d4EuXbdqZ4%2FHQ03%2F1FMJ8X%2BUF3rUW9gBE5tJJtiqKxx8HLGcI2b7xIGpp8x"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f79dcfb82857-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:28:06 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=126
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s7m5ga55dh
+      X-Cloud-Trace-Context:
+      - 2cb4fa225b968196e0c48151a5d90965
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18660-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000477.046641,VS0,VE248
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=45TrjLw0cUDOWm227RsXj7JE1miCmDmSBbVIrIW0vz5eQPSOVoJt52fAnNK%2FFf1DvrkYF%2FVx%2B%2FhLy4f4QmxAcWEGEE3KjQPtCRUBfsG%2BgMNtNLPg7qPgVc1cmYaV"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7d57864284b-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:28:06 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=10433
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:27:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - pe10uzdrf9cz
+      X-Cloud-Trace-Context:
+      - 900fb03d989255e883c2135086d42aca
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18639-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000477.053015,VS0,VE319
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qqtnS63v9N0t4b5voeTeJXT7rjfWgklqTaETA9DkA%2FwuveDrUtggTtyyBp0r0MAlwAthTy1%2BzBr33iRmQqvGrO83xDZl7amhawctAEB1Q0P5EVzOhbZLWrb%2BU9yJ"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7d56c8a66fb-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:28:08 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=10441
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:28:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - pe109nowfhln
+      X-Cloud-Trace-Context:
+      - 3077b1cb8904f7e9b92eabbea002cdb3;o=1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18672-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000481.962010,VS0,VE330
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oLhLox04NM81czisqobCzbnJnUeFUm4xrgVmlOOex%2BV3HjAXyRIQivguP7CzL2kt5gYwMGDfwQOMzv0WYNfyn30rgJoCu%2FwX%2BqzQ6TAXFTIVICiNCLF%2B18fCrl91"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7eddea52848-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:28:08 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=10732
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:28:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - r6s76ispevbb
+      X-Cloud-Trace-Context:
+      - 3aa748ca94336af2e37dca0004a5d844
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18638-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000481.370275,VS0,VE124
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TNFcLB7%2BVKBzZOeun1fTDULD%2BaiPE7GkHHc8mhVDbpxEyLTVHJOEx7Nn2Q62xE5HH5Z6okiKXxSW4u%2FIw2uVSyxRpQ4nYckeOif9EwpuCTAxR5tyaGUNt88kc4uC"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7f07e698146-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:28:12 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=11002
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:28:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - pe10rvohnqf9
+      X-Cloud-Trace-Context:
+      - d4ea70a1507e940e0e6582b2678cdc4c
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18660-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000483.222709,VS0,VE218
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Uur5jR3YtPr23HQ8T%2BbaGkUTlABe9393c%2Ff90MBNd0S6Zh82DIf%2Bd0BAHdum4YFfFL9tK7PKUeK81R5Luw1Rgvu0QLJwT%2FK%2BFIwzBTGfsatM%2BQDyAmNol0odO1Rt"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f7fc0c0728b3-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:28:12 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=10904
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:28:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - a5vgads0ma9f
+      X-Cloud-Trace-Context:
+      - c066183dcef20afdd35240e1c5a109a4;o=1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18623-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000488.320626,VS0,VE268
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=88VXR4CAOzCKW64IqABAnlStPDiqWFslUCrlVKmBVqn4L1NHfprbuS%2FpKrekq25iIAi53HaTz%2B8spOR4Asy%2FUqaiLcypeMN97lFWaN1zZlqcLhWAlPBf83erR9T0"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f81bed7dec62-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:28:12 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/type?page=274
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 01 Jan 2022 01:28:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '267'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"4ea-sMRK9ahboOvZM874KpSIf4Au/mo"
+      Function-Execution-Id:
+      - 9ybam42xh7ds
+      X-Cloud-Trace-Context:
+      - 342571620e14fd9efeffdf0968c2d1ce;o=1
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dfw18640-DFW
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641000491.002132,VS0,VE959
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kPuwfizf0rMx6pQPB2dOVsaCoXn%2FhEalRBqnUGnSiBTnneuNneoZzlEK3gFm5peNgljXX4jyJLHdkjV3hUEV5STPsn8s5fApFt7LmYDQuJAEU68uYKAXn5J9%2FO21"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c67f82ca89bec52-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":20,"next":null,"previous":null,"results":[{"name":"normal","url":"https://pokeapi.co/api/v2/type/1/"},{"name":"fighting","url":"https://pokeapi.co/api/v2/type/2/"},{"name":"flying","url":"https://pokeapi.co/api/v2/type/3/"},{"name":"poison","url":"https://pokeapi.co/api/v2/type/4/"},{"name":"ground","url":"https://pokeapi.co/api/v2/type/5/"},{"name":"rock","url":"https://pokeapi.co/api/v2/type/6/"},{"name":"bug","url":"https://pokeapi.co/api/v2/type/7/"},{"name":"ghost","url":"https://pokeapi.co/api/v2/type/8/"},{"name":"steel","url":"https://pokeapi.co/api/v2/type/9/"},{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},{"name":"water","url":"https://pokeapi.co/api/v2/type/11/"},{"name":"grass","url":"https://pokeapi.co/api/v2/type/12/"},{"name":"electric","url":"https://pokeapi.co/api/v2/type/13/"},{"name":"psychic","url":"https://pokeapi.co/api/v2/type/14/"},{"name":"ice","url":"https://pokeapi.co/api/v2/type/15/"},{"name":"dragon","url":"https://pokeapi.co/api/v2/type/16/"},{"name":"dark","url":"https://pokeapi.co/api/v2/type/17/"},{"name":"fairy","url":"https://pokeapi.co/api/v2/type/18/"},{"name":"unknown","url":"https://pokeapi.co/api/v2/type/10001/"},{"name":"shadow","url":"https://pokeapi.co/api/v2/type/10002/"}]}'
+  recorded_at: Sat, 01 Jan 2022 01:28:15 GMT
+recorded_with: VCR 6.0.0
